@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    width: 98vw;
+    height: 98vh;
+    color: aliceblue;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas: 
+    'one two three four'
+    'five six seven eight'
+    ;
+}
+
+
+.one{
+    
+    background-color: blueviolet;
+    grid-area: one;
+}
+.two{
+    background-color: darkblue;
+    grid-area: two;
+}
+.three{
+    background-color: midnightblue;
+    color: aliceblue;
+    grid-area: three;
+}
+.four{
+    background-color: midnightblue;
+    grid-area: four;
+}
+.five{
+    background-color: midnightblue;
+    grid-area: five;
+}
+.six{
+    background-color: midnightblue;
+    grid-area: six;
+}
+.seven{
+    background-color: midnightblue;
+    grid-area: seven;
+}
+.eight{
+    background-color: midnightblue;
+    grid-template-columns: eight;
+}
